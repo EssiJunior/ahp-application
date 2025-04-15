@@ -1,12 +1,15 @@
-# React + Vite
+# AHP Phone Selection Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web application that implements the Analytic Hierarchy Process (AHP) for selecting the best phone based on multiple criteria.
 
-Currently, two official plugins are available:
+## Run the Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Build the project:
+```bash
+npm run build
+# Then open index.html file in dist folder
+```
 
-## Expanding the ESLint configuration
+Or open the present *index.html* file in the *dist* folder with live server extension (for better experience).
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It should look like this [image](./public/screen.png)
